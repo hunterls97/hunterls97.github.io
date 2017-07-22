@@ -2,7 +2,7 @@ var index = 0;
 
 function next(){
 	index++;
-	index = index > 3 ? 0 : index;
+	index = index > 2 ? 0 : index;
 	dispSlide(index);
 }
 
@@ -14,4 +14,5 @@ function prev(){
 
 function dispSlide(index){
 	alert(index);
+	$('div.slide-container').append('<img src="/static/img'+index+'.jpg" style="width:100%">').hide().fadeIn(1500);
 }
