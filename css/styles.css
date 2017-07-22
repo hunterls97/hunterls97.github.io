@@ -58,3 +58,7 @@ h4.header{
 p.text{
 	color: #BDBEA9;
 }
+
+.footer{
+	max-width: 100%;
+}
