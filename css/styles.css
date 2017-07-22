@@ -49,3 +49,12 @@
 .active, .dot:hover {
   background-color: #717171;
 }
+
+h4.header{
+	color: #BDBEA9;
+	font-weight: bold;
+}
+
+p.text{
+	color: #BDBEA9;
+}
