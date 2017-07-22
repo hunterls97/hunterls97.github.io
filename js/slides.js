@@ -1,4 +1,5 @@
 var index = 1;
+dispSlide(index);
 
 function next(){
 	index++;
