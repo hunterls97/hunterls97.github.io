@@ -4,6 +4,7 @@
 
 .slide-container{
   max-width: 100%;
+  max-height: 20%;
   position: relative;
   margin: auto;
 }
