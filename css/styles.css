@@ -59,6 +59,8 @@ p.text{
 	color: #BDBEA9;
 }
 
-.footer{
+.footer-container{
+  background-color: #565554;
 	max-width: 100%;
+  height: 18em;
 }
