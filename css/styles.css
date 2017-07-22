@@ -8,6 +8,8 @@
   max-width: 100%;
   position: relative;
   margin: auto;
+  height: 25em;
+  overflow: auto;
 }
 
 .prev, .next {
