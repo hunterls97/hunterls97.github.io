@@ -16,5 +16,5 @@ function dispSlide(index){
 	$('div.slide-container>img').remove();
 	$('div.slide-container').append('<img src="/static/img'+index+'.jpg" style="width:100%">').hide().fadeIn(1500);
 	$('.dots>span').each(function(){$(this).removeClass('active')});
-	$('.dots:nth-child('+index+')').addClass('active');
+	$('.dots>span:nth-child('+index+')').addClass('active');
 }
