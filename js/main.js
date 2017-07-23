@@ -3,8 +3,7 @@ $(document).ready(function(){
 	var $modalTrigger = $('i.fa-envelope');
 
 	$modalTrigger.click(function(){
-		alert('test');
-		$modal.toggle();
+		$modal.toggle(1500);
 	});
 
 	$('span.close').click(function(){
