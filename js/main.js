@@ -3,16 +3,16 @@ $(document).ready(function(){
 	var $modalTrigger = $('i.fa-envelope');
 
 	$modalTrigger.click(function(){
-		$modal.toggle(1500);
+		$modal.css('display', 'block');
 	});
 
 	$('span.close').click(function(){
-		$modal.toggle();
+		$modal.css('display', 'none');
 	});
 
 	window.onclick = function(event) {
     	if (event.target == modal) {
-        	modal.toggle();
+        	$modal.css('display', 'none');
     	}
 	}
 });
