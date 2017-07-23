@@ -7,12 +7,12 @@
 .autoQuote{
   text-align: center;
   height: 6em;
+  background-color: #506C64;
 }
 
 .quote{
   font-family: verdana;
   font-size: 18px;
-  background-color: #506C64;
 }
 
 .auth{
