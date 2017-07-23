@@ -32,6 +32,14 @@
   overflow: auto;
 }
 
+.prof-container{
+  color: #BDBEA9;
+}
+
+.prof-header{
+  font-weight: bold;
+}
+
 .modal-container{
   display: none;
   position: fixed; 
