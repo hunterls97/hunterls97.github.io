@@ -2,7 +2,7 @@ $(document).ready(function(){
 	var $modal = $('#modal');
 	var $modalTrigger = $('i.fa-envelope');
 
-	$modalTrigger.onclick(function(){
+	$modalTrigger.click(function(){
 		alert('test');
 		$modal.toggle();
 	});
