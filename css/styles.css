@@ -8,6 +8,16 @@
   text-align: center;
 }
 
+.quote{
+  font-family: verdana;
+  font-size: 24px;
+}
+
+.auth{
+  font-family: arial;
+  font-size: 30px;
+}
+
 .slide-container{
   max-width: 100%;
   position: relative;
