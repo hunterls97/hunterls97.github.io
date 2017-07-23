@@ -54,6 +54,16 @@
     width: 80%; 
 }
 
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
 .footer-container{
   background-color: #222222;
   max-width: 100%;
