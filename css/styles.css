@@ -61,6 +61,25 @@
     animation-duration: 0.4s
 }
 
+.modal-header{
+  height: 10%;
+}
+
+.close {
+    margin-top: -10px;
+    color: black;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 @-webkit-keyframes animatetop {
     from {top:-300px; opacity:0} 
     to {top:0; opacity:1}
