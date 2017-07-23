@@ -24,7 +24,7 @@
   position: relative;
   margin: auto;
   height: 25em;
-  overflow: auto;
+  overflow: hidden;
 }
 
 .info-container{
