@@ -7,12 +7,12 @@ $(document).ready(function(){
 	});
 
 	$('span.close').click(function(){
-		$modal.hide();
+		$modal.toggle();
 	});
 
 	window.onclick = function(event) {
     	if (event.target == modal) {
-        	modal.style.display = "none";
+        	modal.toggle();
     	}
 	}
 });
