@@ -12,6 +12,16 @@
   overflow: auto;
 }
 
+.info-container{
+  height: auto;
+}
+
+.footer-container{
+  background-color: #222222;
+  max-width: 100%;
+  height: 18em;
+}
+
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -59,8 +69,3 @@ p.text{
 	color: #BDBEA9;
 }
 
-.footer-container{
-  background-color: #222222;
-	max-width: 100%;
-  height: 18em;
-}
