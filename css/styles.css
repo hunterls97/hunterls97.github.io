@@ -4,6 +4,10 @@
 	background-color: #000000;
 }
 
+.autoQuote{
+  text-align: center;
+}
+
 .slide-container{
   max-width: 100%;
   position: relative;
@@ -14,6 +18,7 @@
 
 .info-container{
   height: auto;
+  overflow: auto;
 }
 
 .footer-container{
