@@ -63,6 +63,7 @@
 
 .modal-header{
   height: 10%;
+  border-bottom: 0px;
 }
 
 .inModal{
