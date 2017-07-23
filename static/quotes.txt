@@ -1,3 +1,3 @@
 <i class="quote">this is the First quote</i> <p class="auth"> - Author</p>%%
 <i class="quote">this is the Second quote</i> <p class="auth"> - Author2</p>%%
-<i class="quote">this is the Third quote</i> <p class="auth"> - Author3</p>%%
+<i class="quote">this is the Third quote</i> <p class="auth"> - Author3</p>

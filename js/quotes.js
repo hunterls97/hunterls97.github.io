@@ -3,6 +3,7 @@ $(document).ready(function(){
 		var quotes = data.split("%%");
 		var singleQuote = getRand(quotes);
 		alert(singleQuote);
+		$('.autoQuote').append(singleQuote);
 	});
 });
 
