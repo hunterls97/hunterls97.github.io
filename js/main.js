@@ -6,4 +6,15 @@ $(document).ready(function(){
 		alert('test');
 		$modal.toggle();
 	});
+
+	$('span.close').click(function(){
+		$modal.hide();
+	});
+
+	window.onclick = function(event) {
+    	if (event.target == modal) {
+        	modal.style.display = "none";
+    	}
+	}
 });
+
