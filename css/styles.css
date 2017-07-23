@@ -49,7 +49,7 @@
 .modal-content {
     position: relative;
     background-color: #fefefe;
-    margin: hidden;
+    margin: 0 auto;
     padding: 0;
     border: 1px solid #888;
     width: 50%;
@@ -63,6 +63,10 @@
 
 .modal-header{
   height: 10%;
+}
+
+.inModal{
+  overflow: hidden;
 }
 
 .close {

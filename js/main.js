@@ -4,15 +4,18 @@ $(document).ready(function(){
 
 	$modalTrigger.click(function(){
 		$modal.css('display', 'block');
+		$('body').addClass('inModal');
 	});
 
 	$('span.close').click(function(){
 		$modal.css('display', 'none');
+		$('body').removeClass('inModal');
 	});
 
 	window.onclick = function(event) {
     	if (event.target == modal) {
         	$modal.css('display', 'none');
+        	$('body').removeClass('inModal');
     	}
 	}
 });
