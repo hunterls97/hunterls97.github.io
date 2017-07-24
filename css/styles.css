@@ -1,5 +1,11 @@
 * {box-sizing:border-box}
 
+.mynav{
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+
 .theme-body{
 	background-color: #000000;
 }
@@ -43,7 +49,7 @@
 .modal-container{
   display: none;
   position: fixed; 
-  z-index: 1; 
+  z-index: 10; 
   left: 0;
   top: 0;
   width: 100%; 
