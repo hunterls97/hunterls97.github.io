@@ -179,6 +179,11 @@ p.project-text{
   font-size: 16px;
 }
 
+p.experience-text{
+  color: #BDBEA9;
+  font-size: 16px;
+}
+
 .icon-fa{
   text-align: center;
 }
