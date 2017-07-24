@@ -108,6 +108,10 @@
   height: 12em;
 }
 
+.project-container>h2{
+  color: #506C64;
+}
+
 .footer-link{
   text-decoration: none;
   color: #333;
