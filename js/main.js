@@ -7,6 +7,11 @@ $(document).ready(function(){
 		$('body').addClass('inModal');
 	});
 
+	$('li.contact-me').click(function(){
+		$modal.css('display', 'block');
+		$('body').addClass('inModal');
+	});
+
 	$('span.close').click(function(){
 		$modal.css('display', 'none');
 		$('body').removeClass('inModal');
