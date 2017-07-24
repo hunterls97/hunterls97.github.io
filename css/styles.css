@@ -160,6 +160,11 @@ p.text{
 	color: #BDBEA9;
 }
 
+p.project-text{
+  color: #BDBEA9;
+  font-size: 16px;
+}
+
 .icon-fa{
   text-align: center;
 }
