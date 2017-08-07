@@ -1,6 +1,10 @@
 var index = 1;
 dispSlide(index);
 
+$('span.dot').on('click', function(){
+	alert($(this).index());
+});
+
 function next(){
 	index++;
 	index = index > 3 ? 1 : index;
