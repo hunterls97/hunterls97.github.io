@@ -120,6 +120,17 @@
   }
 }
 
+.phone-dropdown{
+  display: none;
+}
+
+@media only screen and (max-width : 420px) {
+  .phone-dropdown{
+    display: block;
+    float: right;
+  }
+}
+
 .project-container>h2{
   color: #506C64;
 }
