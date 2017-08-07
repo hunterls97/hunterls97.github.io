@@ -1,8 +1,8 @@
 var index = 1;
 dispSlide(index);
 
-$('span.dot').on('click', function(){
-	alert($(this).index());
+$('.dot').on('click', function(){
+	dispSlide($(this).index() + 1);
 });
 
 function next(){
