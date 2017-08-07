@@ -129,6 +129,10 @@
     display: block;
     float: right;
   }
+
+  .regular-dropdown{
+    display: none;
+  }
 }
 
 .project-container>h2{
