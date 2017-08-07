@@ -114,7 +114,7 @@
   height: 12em;
 }
 
-@media only screen and (max-width : 420px) {
+@media only screen and (max-width : 768px) {
   .footer-container{
     height: 24em;
   }
@@ -124,7 +124,7 @@
   display: none;
 }
 
-@media only screen and (max-width : 420px) {
+@media only screen and (max-width : 768px) {
   .phone-dropdown{
     display: block;
     float: right;
