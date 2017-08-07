@@ -2,8 +2,6 @@ $(document).ready(function(){
 	var $modal = $('#modal');
 	var $modalTrigger = $('i.fa-envelope');
 
-	$(".dropdown-button").dropdown();
-
 	$modalTrigger.click(function(){
 		$modal.css('display', 'block');
 		$('body').addClass('inModal');
