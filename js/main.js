@@ -22,6 +22,8 @@ $(document).ready(function(){
         	$modal.css('display', 'none');
         	$('body').removeClass('inModal');
     	}
+
+    	$('.collapse').collapse('hide');
 	}
 });
 
